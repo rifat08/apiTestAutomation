@@ -58,7 +58,6 @@ public class HoFinApiLiveTest extends BaseApiTest {
                 .then()
                 .log().body()
                 .statusCode(200);
-         //      .body("data[0].isFundControl", equalTo(false));
     }
 
     @Test
