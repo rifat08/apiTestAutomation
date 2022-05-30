@@ -12,8 +12,8 @@ public abstract class BaseApiTest {
     @BeforeClass
     public void setup() {
 
-    //    RestAssured.baseURI = "https://qa-sbi.brac.net:9092";
-       RestAssured.baseURI = "http://34.87.126.240:9090";
+        RestAssured.baseURI = "https://erpstaging.brac.net/node/";
+    //   RestAssured.baseURI = "http://34.87.126.240:9090";
 //        RestAssured.port = 443;
         RestAssured.basePath = "/" + getController();
         RestAssured.enableLoggingOfRequestAndResponseIfValidationFails();
